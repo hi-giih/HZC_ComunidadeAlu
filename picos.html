@@ -21,7 +21,7 @@
 
     <nav class="menu-lateral menu-lateral--ativo">
         <img src="assets/img/logo.svg" alt="" class="menu-lateral__logo">
-        <a href="#" class="menu-lateral__link menu-lateral__link--inicio">Inicio</a>
+        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Inicio</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--videos">Videos</a>
         <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
@@ -31,7 +31,7 @@
 
     <main class="principal">
         <h2 class="titulo-principal">Picos</h2>
-        <article class="cartao cartao--destaque">
+        <article class="cartao cartao--destaque destaque-mapa">
             <img src="assets/img/mapa-picos.png" alt="Baneer" class="cartao-img cartao_img--mobile">
             <img src="assets/img/mapa-picos.png" alt="Baneer" class="cartao_img cartao_img--desktop">
         </article>
@@ -39,42 +39,44 @@
         <section class="secao secao-videos">
             <h3 class="titulo-secao">Videos mais vistos</h3>
             <article class="cartao">
-                <img src="assets/img/video_1.png" alt="Video" class="cartao-img">
+                <img src="assets/img/artigo_1.png" alt="Artigo" class="cartao-img">
+                <div class="cartao__conteudo">
+                <a href="artigo.html">
+                    <p class="cartao__perfil">Bruno Lopes</p>
+                </a>
+                    <h3 class="cartao__titulo">Gap do Itaú da Voluntários da Pátria</h3>
+                    <p class="cartao__info cartao__info--vizualizacao">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--localizacao" aria-label="Localização"></button>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="assets/img/video_2.png" alt="Artigo" class="cartao-img">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Luiza Sampaio</p>
+                    <h3 class="cartao__titulo"> Gap com mureta da Volutários</h3>
+                    <p class="cartao__info cartao__info--tempo">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--localizacao" aria-label="Localização"></button>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="assets/img/video_3.png" alt="Artigo" class="cartao-img">
                 <div class="cartao__conteudo">
                     <p class="cartao__perfil">André Soares</p>
-                    <h3 class="cartao__titulo">HZC - Tudo sem Padrin</h3>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <button class="cartao__botao cartao__botao--play" aria-label="Assitir agora"></button>
-                </div>
-            </article>
-
-            <article class="cartao">
-                <img src="assets/img/video_2.png" alt="Video" class="cartao-img">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Bruno Lopes</p>
-                    <h3 class="cartao__titulo"> HZC - Enter The Hu-flez</h3>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <button class="cartao__botao cartao__botao--play" aria-label="Assitir agora"></button>
-                </div>
-            </article>
-
-            <article class="cartao">
-                <img src="assets/img/video_3.png" alt="Video" class="cartao-img">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Luíza Sampaio</p>
-                    <h3 class="cartao__titulo"> HZC - Vol.3</h3>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <button class="cartao__botao cartao__botao--play" aria-label="Assitir agora"></button>
+                    <h3 class="cartao__titulo"> Rampa da entrada do túnel Rebouças</h3>
+                    <p class="cartao__info cartao__info--tempo">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--localizacao" aria-label="Localização"></button>
                 </div>
             </article>
 
             <article class="cartao">
                 <img src="assets/img/video_4.png" alt="Video" class="cartao-img">
                 <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Bruno Lopes</p>
-                    <h3 class="cartao__titulo"> HZC - Love Marchine</h3>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <button class="cartao__botao cartao__botao--play" aria-label="Assitir agora"></button>
+                    <p class="cartao__perfil">Júlia Fonseca</p>
+                    <h3 class="cartao__titulo"> Wallride de pedra portuguesa da FGP</h3>
+                    <p class="cartao__info cartao__info--tempo">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--localizacao" aria-label="Localização"></button>
                 </div>
             </article>
         </section>

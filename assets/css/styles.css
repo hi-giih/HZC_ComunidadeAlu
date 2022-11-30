@@ -176,6 +176,8 @@ body{
     gap: 16px;
 }
 
+
+
 @media screen and (min-width: 1440px) {
     .principal{
         display: grid;
@@ -183,6 +185,7 @@ body{
         grid-template-areas: /* "col1 col2 col3" */
             "titulo-pagina titulo-pagina titulo-pagina" 
             "destaque-video destaque-video videos-recentes"
+            "destaque-mapa destaque-mapa videos-recentes"
             "secao-videos secao-videos secao-videos"
             "produtos-recentes destaque-produtos destaque-produtos"
             "secao-produtos secao-produtos secao-produtos"
@@ -211,6 +214,10 @@ body{
     border-radius:35px;
     overflow: hidden;
     background-color: #2C343A;
+}
+
+.cartao-artigo{
+    width: 100%;
 }
 
 .cartao_img--desktop{
@@ -274,6 +281,11 @@ body{
 
 .cartao__botao--play::before{
     content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao__botao--localizacao::before{
+    content: "\e908";
     font-size: 24px;
 }
 
@@ -363,12 +375,18 @@ body{
     gap: 16px;
 }
 
+
+
 @media screen and (min-width: 1440px){
     .secao{
         grid-template-columns: repeat(4, 1fr);
     }
     .destaque-video{
         grid-area: destaque-video;
+    }
+
+    .destaque-mapa{
+        grid-area: destaque-mapa;
     }
     
     .videos-recentes{
